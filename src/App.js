@@ -10,8 +10,8 @@ export const App = () => {
         <Route path="/" exact>
           < CocktailList />
         </Route>
-        <Route>
-          <CocktailDetails path="/:cocktailId" exact />
+        <Route path="/cocktails/:cocktailId" exact >
+          <CocktailDetails />
         </Route>
       </Switch>
     </BrowserRouter>

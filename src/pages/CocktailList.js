@@ -17,7 +17,7 @@ export const CocktailList = () => {
         <div key={cocktail.idDrink}>
           <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
           <h2>
-            <Link to={`/${cocktail.idDrink}`}>{cocktail.strDrink} </Link>
+            <Link to={`/cocktails/${cocktail.idDrink}`}>{cocktail.strDrink} </Link>
           </h2>
         </div>
       ))}

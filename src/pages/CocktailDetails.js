@@ -11,7 +11,6 @@ export const CocktailDetails = () => {
       .then(res => res.json())
       .then(json => {
         setCocktails(json.drinks)
-        console.log(cocktailId)
       })
   }, [cocktailId])
 
